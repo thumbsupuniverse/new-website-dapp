@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0xfAF6694Cb04b9104F127B2f3f22B091a2106B3Ff",
+  "SCAN_LINK": "https://mumbai.polygonscan.com/address/0xfaf6694cb04b9104f127b2f3f22b091a2106b3ff",
+  "NETWORK": {
+    "NAME": "Mumbai Polygon",
+    "SYMBOL": "Matic",
+    "ID": 80001
+  },
+  "NFT_NAME": "ThumbsUp Universe",
+  "SYMBOL": "TUNFT",
+  "MAX_SUPPLY": 2002,
+  "WEI_COST": 75000000000000000,
+  "DISPLAY_COST": 0.02,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/thumbsup-universe-v2",
+  "SHOW_BACKGROUND": false
+}
