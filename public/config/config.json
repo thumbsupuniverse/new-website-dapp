@@ -9,10 +9,10 @@
   "NFT_NAME": "ThumbsUp Universe",
   "SYMBOL": "TUNFT",
   "MAX_SUPPLY": 2002,
-  "WEI_COST": 75000000000000000,
+  "WEI_COST": 20000000000000000,
   "DISPLAY_COST": 0.02,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opeansea",
   "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/thumbsup-universe-v2",
-  "SHOW_BACKGROUND": false
+  "SHOW_BACKGROUND": true
 }
