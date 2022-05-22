@@ -1,42 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <base href="/" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <link rel="stylesheet" href="%PUBLIC_URL%/config/theme.css" />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <title>ThumbsUp Universe</title>
+  <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>ThumbsUp Universe</title>
-    <meta name="description" content="Enter in the ThumbsUp's Universe" />
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+<!-- Cabeçalho -->
+<div class="container-p">
+  <img style="max-width: 100%; height: auto; pointer-events:none;" src="bg.png">
+</div>
+<!-- Fim cabeçalho -->
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+<div class="boxp">
+  <div class="circle-wrapper">
+    <div class="success circle"></div>
+      <img src="example.gif" class="imggif">
+  </div>
+  <h1>0/2002</h1>
+  <h2><a target="_blank" href="https://mumbai.polygonscan.com/address/0xbdBF1B8a430E086E3bc730335fAC727b79e7B259">0xbdBF1B8a430E0...</a></h2>
+  <h3>1 TUNFT costs 0.02 Matic.</h3>
+  <h3>Excluding gas fees.</h3>
+    <button class="light">
+  CONNECT
+</button>
+<h3 class="inv">Install Metamask !</h4>
+</div>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+<div class="boxs">
+  <h3>Warning!</h3>
+  <h4>Please make sure you are connected to the right network (Mumbai Polygon Mainnet) and the correct address. Please note: Once you make the purchase, you cannot undo this action.</h4>
+  <h4>We have set the gas limit to 285000  for the contract to successfully mint your NFT. We recommend that you don't lower the gas limit.</h4>
+</div>
+<!-- Rodapé -->
+
+<footer>
+  <img style="width: 400px; pointer-events: none; height: 145px;" src="logo.png">
+  <span style="float: right; position:absolute; bottom: 0; right: 0; margin: 10px; font-family: sans-serif; color: #88127e;">website creator: @eduardo_rohr</span>
+</footer>
+</body>
 </html>
